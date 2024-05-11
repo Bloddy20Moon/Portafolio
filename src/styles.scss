@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-color: #f9f6ee  ;
+}
+    
+
+:root {
+    --primary-color: #1b1b1b;
+    --secundary-color: #105d4f;
+    --tercer-color: #f57a39 ;
+    --four-color: #f9f6ee ;
+   
+    --text-primary-color: #1b1b1b;
+    --text-secundary-color: #105d4f;
+    --text-three-color: #f57a39 ;
+    --text-four-color: #f9f6ee ;
+
+  
+}
+//71, 9, 82 #470952
+//92, 14, 80 #5C0E50
+//247, 50, 63 #f7323f
+
+.color__primary {
+    background-color: var(--primary-color);
+}
+.color__secundary{
+    background-color: var(--secundary-color);
+}
+.color__three {
+    background-color: var(--text-three-color);
+}
+.color__four{
+    background-color: var(--text-four-color);
+}
+
+
+.color__text_primary {
+    color: var(--text-primary-color);
+}
+
+.color__text_secundary {
+    color: var(--text-secundary-color);
+}
+
+.color__text_three {
+    color: var(--text-three-color);
+}
+.color__text_four {
+    color: var(--text-four-color);
+}

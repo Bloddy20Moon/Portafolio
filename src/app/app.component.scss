@@ -1,0 +1,43 @@
+    .navbar-toggler {
+        border: none;
+        font-size: 1.5rem;
+    }
+    .navbar {
+        background-color: #f9f6ee;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+        outline: none;
+    }
+
+    .navbar-brand,
+    .nav-link {
+        color: #105d4f; /* Cambiar el color a blanco */
+        font-weight: 600;
+        position: relative;
+    }
+
+    .nav-link:hover,
+    .nav-link.activate {
+        color: black;
+    }
+
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: #f57a39;
+        visibility: hidden;
+        transition: width 0.4s ease-in-out; /* Ajuste de la duración de la animación a 0.3 segundos */
+    }
+
+    .nav-link:hover::before,
+    .nav-link.activate::before {
+        width: 100%;
+        visibility: visible;
+    }
