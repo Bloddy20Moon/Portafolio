@@ -1,15 +1,31 @@
 <main class="wrapper">
     <section class="section" >
         <div class="top-header">
-            <h1>Projects</h1>
+            <h1>Portafolio</h1>
         </div>
-        <div class="project-container">
-          
-            <app-contacto></app-contacto>
-            
+
+        <div class="featured-wriper">
+            <ngx-typed-writer class="letras"
+            [strings]="[
+             'Proyecto  : Backend',
+             'Proyecto : Frontend',
+             'Proyecto : FullStack',
+             
+             'Proyecto : <strong>HTML</strong>'
+             
+           ]"
+           [isHTML]="true"
+           [smartBackspace]="true"
+           [backSpeed]="20"
+           [typeSpeed]="30"
+           [loop]="true"
+           ></ngx-typed-writer>
+
         </div>
-       
         
+        <app-cards> </app-cards>
+        
+ 
      </section>
 
 </main>
