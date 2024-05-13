@@ -1,0 +1,43 @@
+
+.image-card {
+  position: relative;
+  width: 250px; /* Adjust width as needed */
+  height: 200px; /* Adjust height as needed */
+  overflow: hidden;
+}
+
+.image-card img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-card:hover img {
+  transform: scale(1.1); /* Adjust scale for hover effect */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust background color and opacity */
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white; /* Adjust text color */
+}
+
+.image-card:hover .overlay {
+  opacity: 1;
+}
+
+.overlay h3,
+.overlay p {
+  margin: 0;
+  text-align: center;
+}

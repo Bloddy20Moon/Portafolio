@@ -8,19 +8,25 @@
     <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="Inicio" style="color: #105d4f;">Inicio</a>
+          <a class="nav-link active" href="#Inicio" aria-current="page" style="color: #105d4f;">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="AcercaDe" style="color: #105d4f;">Acerca de</a>
+          <a class="nav-link"  href="#Sobre-Mi" style="color: #105d4f;">Acerca de</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Portafolio" style="color: #105d4f;">Portafolio</a>
+          <a class="nav-link" href="#Portafolio" style="color: #105d4f;">Portafolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Contacto" style="color: #105d4f;">Contacto</a>
+          <a class="nav-link" href="#Contacto" style="color: #105d4f;">Contacto</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
+
+<app-inicio id="Inicio"></app-inicio>
+
+<app-sobremi id="Sobre-Mi"></app-sobremi>
+<app-portafolio id="Portafolio"></app-portafolio>
+<app-contacto id="Contacto"></app-contacto>
 <router-outlet />
