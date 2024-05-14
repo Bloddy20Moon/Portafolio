@@ -35,7 +35,9 @@ i{
 }
 
 /* ------- BASE -------- */
-
+a{
+    text-decoration: none;
+}
 .container{
     width: 100%;
     position: relative;
@@ -48,7 +50,7 @@ i{
 
 /* ----- MAIN BOX ----- */
 .section{
-    padding-block: 60px;
+    padding-block: 5em;
 }
 .row{
     display: flex;
@@ -140,7 +142,9 @@ h3{
 
 /* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
 @media only screen and (max-width: 900px) {
-    
+    .section{
+        padding-block: 4em;
+    }
     .featured-box{
         flex-direction: column;
         justify-content: center;

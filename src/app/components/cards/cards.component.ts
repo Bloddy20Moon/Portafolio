@@ -53,6 +53,17 @@ export class CardsComponent {
         'https://github.com/Bloddy20Moon/Wasap_Bot'
       ]
     },
+    {
+      imageUrl: 'assets/img/card/FruttiLovers.png',
+      icon: [
+        'assets/img/card/iconos/html.png',
+        'assets/img/card/iconos/css.png',
+        'assets/img/card/iconos/JavaScript.png',
+      ],
+      link: [
+        'https://github.com/Bloddy20Moon/LandingPageCafeteria'
+      ]
+    },
     
     
     

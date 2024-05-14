@@ -35,7 +35,7 @@ i {
 /* ----- FEATURED BOX ----- */
 .featured-box {
     display: flex;
-    height: 110vh;
+    height: 100vh;
     min-height: 600px;
 }
 
@@ -77,7 +77,7 @@ i {
     gap: 30px;
 }
 .letras{
-    font-size: 50px;
+    font-size: 45px;
 }
 .icon {
     display: flex;
@@ -155,7 +155,7 @@ i {
     }
 
     .social_icons {
-        margin-top: 2em;
+        margin-top: 3.5em;
     }
 
     .featured-image {
@@ -168,8 +168,8 @@ i {
 
     .image,
     .image img {
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
     }
 
     .row {
