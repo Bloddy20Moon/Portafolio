@@ -1,5 +1,7 @@
 import { Component, ElementRef, AfterViewInit } from '@angular/core';
 
+
+
 @Component({
   selector: 'app-infinitecarousel',
   standalone: true,
@@ -14,4 +16,6 @@ export class InfinitecarouselComponent  implements AfterViewInit {
     const copy: Node = this.elRef.nativeElement.querySelector(".logos-slide").cloneNode(true);
     this.elRef.nativeElement.querySelector(".logos").appendChild(copy);
   }
+
+  
 }
