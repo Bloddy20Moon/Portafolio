@@ -21,7 +21,7 @@ export class CardsComponent {
       icon:[
         'assets/img/card/iconos/angular.png',
         'assets/img/card/iconos/nestjs.png',
-        'assets/img/card/iconos/mysql.png',
+        'assets/img/card/iconos/mysqld.png',
         
       ],
       link: [
@@ -32,8 +32,8 @@ export class CardsComponent {
     {
       imageUrl: 'assets/img/card/TiendaBar.png',
       icon: [
-        'assets/img/card/iconos/html.png',
-        'assets/img/card/iconos/css.png',
+        'assets/img/card/iconos/html.svg',
+        'assets/img/card/iconos/css.svg',
         'assets/img/card/iconos/JavaScript.png',
       ],
       link: [
@@ -45,8 +45,8 @@ export class CardsComponent {
     {
       imageUrl: 'assets/img/card/Cortes.png',
       icon: [
-        'assets/img/card/iconos/html.png',
-        'assets/img/card/iconos/css.png',
+        'assets/img/card/iconos/html.svg',
+        'assets/img/card/iconos/css.svg',
         'assets/img/card/iconos/JavaScript.png',
       ],
       link: [
@@ -56,12 +56,23 @@ export class CardsComponent {
     {
       imageUrl: 'assets/img/card/FruttiLovers.png',
       icon: [
-        'assets/img/card/iconos/html.png',
-        'assets/img/card/iconos/css.png',
+        'assets/img/card/iconos/html.svg',
+        'assets/img/card/iconos/css.svg',
         'assets/img/card/iconos/JavaScript.png',
       ],
       link: [
         'https://github.com/Bloddy20Moon/LandingPageCafeteria'
+      ]
+    },
+    {
+      imageUrl: 'assets/img/card/Inv.png',
+      icon: [
+        'assets/img/card/iconos/react.png',
+        'assets/img/card/iconos/vite.png',
+        'assets/img/card/iconos/superbase.png',
+      ],
+      link: [
+        'https://github.com/Bloddy20Moon/InventarioFront'
       ]
     },
     
