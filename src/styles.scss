@@ -7,7 +7,7 @@ body{
 :root {
     --primary-color: #1b1b1b;
     --secundary-color: #105d4f;
-    --tercer-color: #f57a39 ;
+    --three-color: #f57a39 ;
     --four-color: #f9f6ee ;
    
     --text-primary-color: #1b1b1b;
@@ -28,10 +28,10 @@ body{
     background-color: var(--secundary-color);
 }
 .color__three {
-    background-color: var(--text-three-color);
+    background-color: var(--three-color);
 }
 .color__four{
-    background-color: var(--text-four-color);
+    background-color: var(--four-color);
 }
 
 

@@ -17,9 +17,12 @@
     transition: .4s;
 }
 
-.btn:hover {
-    background: var(--second-color);
-    color: var(--color-white);
+.btn:hover  {
+    background: #bd3111;
+    color: #f9f6ee ;
+}
+.sincolor {
+    color: #f9f6ee; /* Color predeterminado para los enlaces azules */
 }
 
 /* ----- GLOBAL ICONS DESIGN ----- */
@@ -60,7 +63,7 @@ i {
 .featured-text-info {
     font-size: 15px;
     margin-bottom: 30px;
-    color: var(--text-color-second);
+    color: #105d4f;
 }
 
 .featured-text-btn {
@@ -91,7 +94,7 @@ i {
 }
 
 .icon:hover {
-    color: var(--first-color);
+    color: #105d4f;
 }
 
 /* ----- FEATURED IMAGE BOX ----- */
@@ -103,6 +106,7 @@ i {
     width: 50%;
 }
 
+   
 .image {
     margin: auto 0;
     width: 380px;
