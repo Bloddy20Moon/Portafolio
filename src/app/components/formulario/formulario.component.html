@@ -1,69 +1,69 @@
-
 <div class="container">
- 
 
-    <div class="form">
-      <div class="contact-info">
-        <h3 class="title">Mantengámonos en contacto</h3>
-        <p class="text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-          dolorum adipisci recusandae praesentium dicta!
-        </p>
 
-        <div class="info">
-         
-          <div class="information">
-            <img src="assets/img/forms/gmail.png" class="icon" alt="" />
-            <p>adrian0212alvarado&#64;gmail.com</p>
-          </div>
-          <div class="information">
-            <img src="assets/img/forms/phone.png" class="icon" alt="" />
-            <p>907-670-080</p>
-          </div>
+  <div class="form">
+    <div class="contact-info">
+      <h3 class="title">Mantengámonos en contacto</h3>
+      <p class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+        dolorum adipisci recusandae praesentium dicta!
+      </p>
+
+      <div class="info">
+
+        <div class="information">
+          <img src="assets/img/forms/gmail.png" class="icon" alt="" />
+          <p>adrian0212alvarado&#64;gmail.com</p>
         </div>
-
-        <div class="social-media">
-          <p>Conecta conmigo:</p>
-          <div class="social-icons">
-            <a href="https://www.linkedin.com/in/adrian-josué-alvarado-sánchez-831260225/" target="_blank">
-              <i class="uil uil-linkedin-alt"></i>
-            </a>
-            <a href="https://api.whatsapp.com/send?phone=51907670080" target="_blank">
-              <i class="uil-whatsapp" ></i>
-            </a>
-           
-          </div>
+        <div class="information">
+          <img src="assets/img/forms/phone.png" class="icon" alt="" />
+          <p>907-670-080</p>
         </div>
       </div>
 
-      <div class="contact-form">
-        <span class="circle one"></span>
-        <span class="circle two"></span>
+      <div class="social-media">
+        <p>Conecta conmigo:</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/adrian-josué-alvarado-sánchez-831260225/" target="_blank">
+            <i class="uil uil-linkedin-alt"></i>
+          </a>
+          <a href="https://api.whatsapp.com/send?phone=51907670080" target="_blank">
+            <i class="uil-whatsapp"></i>
+          </a>
 
-        <form action="index.html" autocomplete="off">
-          <h3 class="title">Contact us</h3>
-          <div class="input-container">
-            <input type="text" name="name" class="input" />
-            <label for="">Username</label>
-            <span>Username</span>
-          </div>
-          <div class="input-container">
-            <input type="email" name="email" class="input" />
-            <label for="">Email</label>
-            <span>Email</span>
-          </div>
-          <div class="input-container">
-            <input type="tel" name="phone" class="input" />
-            <label for="">Phone</label>
-            <span>Phone</span>
-          </div>
-          <div class="input-container textarea">
-            <textarea name="message" class="input"></textarea>
-            <label for="">Message</label>
-            <span>Message</span>
-          </div>
-          <input type="submit" value="Send" class="btn" />
-        </form>
+        </div>
       </div>
     </div>
+
+    <div class="contact-form" [formGroup]="form">
+      <span class="circle one"></span>
+      <span class="circle two"></span>
+
+      <form action="javascript:void(0)" (submit)="send()">
+        <h3 class="title">Contact us</h3>
+        <div class="input-container">
+          <input formControlName="from_name" type="text" name="name" class="input" />
+          <label for="">Name</label>
+          <span>Username</span>
+        </div>
+        <div class="input-container">
+          <input type="email" formControlName="from_email" name="email" class="input" />
+          <label for="">Email</label>
+          <span>Email</span>
+        </div>
+        <div class="input-container">
+          <input type="tel" formControlName="phone" name="phone" class="input" />
+          <label for="">Phone</label>
+          <span>Phone</span>
+        </div>
+        <div class="input-container textarea">
+          <textarea name="message" formControlName="message" class="input"></textarea>
+          <label for="">Message</label>
+          <span>Message</span>
+        </div>
+
+        <input type="submit" value="Send" class="btn" />
+      </form>
+    </div>
   </div>
+</div>
