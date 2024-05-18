@@ -1,87 +1,74 @@
-
 /* ----- BASE ----- */
-*{
- 
-    
+* {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
 /* ----- SMOOTH SCROLL ----- */
-html{
+html {
     scroll-behavior: smooth;
 }
 
-
 /* ----- GLOBAL BUTTON DESIGN ----- */
-.btn{
+.btn {
     font-weight: 500;
     padding: 10px 10px;
-    
     border: none;
     border-radius: 10px;
     cursor: pointer;
     transition: .4s;
 }
-.btn>i{
+
+.btn > i {
     margin-left: 10px;
 }
 
-
-/* ----- GLOBAL ICONS DESIGN ----- */
-i{
-    font-size: 16px;
-}
-
 /* ------- BASE -------- */
-a{
+a {
     text-decoration: none;
-}
-.container{
-    width: 100%;
-    position: relative;
 }
 
 /* ----- WRAPPER DESIGN ----- */
-.wrapper{
+.wrapper {
     padding-inline: 13vw;
-}   
+}
 
 /* ----- MAIN BOX ----- */
-.section{
+.section {
     padding-block: 5em;
 }
-.row{
+
+.row {
     display: flex;
     justify-content: space-between;
     width: 100%;
     gap: 50px;
 }
-.col{
+
+.col {
     display: flex;
     width: 100%;
 }
 
 /* -- ## --- RESUABLE CSS -- ## -- */
-.top-header{
+.top-header {
     text-align: center;
     margin-bottom: 4em;
 }
-.top-header h1{
+
+.top-header h1 {
     font-weight: 600;
-    
     margin-bottom: 10px;
 }
 
-h3{
+h3 {
     font-size: 20px;
     font-weight: 600;
-   
     margin-bottom: 15px;
 }
 
 /* ----- ABOUT INFO ----- */
-.about-info{
+.about-info {
     position: relative;
     display: flex;
     align-items: center;
@@ -90,54 +77,54 @@ h3{
     padding-inline: 10px;
     width: 100%;
     background: #f9f6ee;
-    box-shadow: 1px 8px 10px 2px ;
+    box-shadow: 1px 8px 10px 2px;
     border-radius: 20px;
 }
-.about-info p{
+
+.about-info p {
     text-align: center;
     font-size: 15px;
     color: #777;
 }
-.about-btn button{
+
+.about-btn button {
     position: center;
     right: 20px;
     bottom: 20px;
-    
     border-radius: 30px;
 }
-.about-btn button:hover{
+
+.about-btn button:hover {
     background: #bd3111;
 }
 
 .enlace {
-    color: #f9f6ee; /* Color predeterminado para los enlaces azules */
+    color: #f9f6ee;
 }
 
 /* ----- ABOUT / SKILLS BOX ----- */
-.skills-box{
+.skills-box {
     margin: 10px;
 }
-.skills-header{
+
+.skills-header {
     margin-bottom: 30px;
 }
-.skills-list{
+
+.skills-list {
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
 }
-.skills-list span{
+
+.skills-list span {
     font-size: 14px;
-    
     padding: 2px 10px;
     border-radius: 5px;
 }
 
-
-@media only screen and (max-width: 1024px){
-    .featured-text{
-        padding: 0;
-    }
-    .image, .image img{
+@media only screen and (max-width: 1024px) {
+    .image, .image img {
         width: 320px;
         height: 320px;
     }
@@ -145,57 +132,28 @@ h3{
 
 /* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
 @media only screen and (max-width: 900px) {
-    .section{
+    .section {
         padding-block: 4em;
     }
-   
-    .featured-box{
-        flex-direction: column;
-        justify-content: center;
-        height: 100vh;
-    }
-    .featured-text{
-        width: 100%;
-        order: 2;
-        justify-content: center;
-        align-content: flex-start;
-        min-height: 60vh;
-    }
-    .social_icons{
-        margin-top: 2em;
-    }
-    .featured-image{
-        order: 1;
-        justify-content: center;
-        min-height: 150px;
-        width: 100%;
-        margin-top: 65px;
-    }
-    .image, .image img{
-        width: 150px;
-        height: 150px;
-    }
-    .row{
+
+    .row {
         display: flex;
         flex-direction: column;
         justify-content: center;
-     
-        gap: 2.5rem
+        gap: 2.5rem;
     }
-    .col{
+
+    .col {
         display: flex;
         gap: 1rem;
         width: 100%;
         flex-wrap: wrap;
     }
- 
 }
 
 /* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
-
-@media only screen and (max-width: 540px){
-    .featured-name{
+@media only screen and (max-width: 540px) {
+    .featured-name {
         font-size: 40px;
     }
-  
 }

@@ -1,97 +1,40 @@
-
 /* ----- BASE ----- */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
-
 /* ----- WRAPPER DESIGN ----- */
-.wrapper{
+.wrapper {
     padding-inline: 13vw;
 }
 
 /* ----- MAIN BOX ----- */
-.section{
+.section {
     padding-block: 5em;
 }
 
 /* -- ## --- RESUABLE CSS -- ## -- */
-.top-header{
+.top-header {
     text-align: center;
     margin-bottom: 4em;
 }
-.top-header h1{
+
+.top-header h1 {
     font-weight: 600;
     color: var(--text-color-second);
     margin-bottom: 10px;
 }
-.top-header span{
-    color: #999;
-}
-.project-container{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    gap: 20px;
-    row-gap: 20px;
-    flex-wrap: wrap;
-   
-}
-.project-container{
-    justify-content: center;
-}
-/* CONTENERDOR DE CARTAS */
-.card-container{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 100px 50px;
-    padding: 100px 50px;
-}
-.card-container .card{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    width:  350px;
-    height: 300px;
-    background-color: #fff;
-    border-radius: 20px;
-    box-shadow: 0 35px 80px rgba(0,0,0,0.15);
-    transition: 0.5s;
 
-}   
-
-.card-container .card:hover{
-    height: 400px;
-}
-
-.card-container .card .imgBx{
-    position: absolute;
-    width: 300px;
-    height: 220px;
-    background: #333;
-    border-radius: 12px;
-    transition: 0.5s;
-
-}   
-
-.card-container .card:hover .imgBx{
-    top: -100px;
-}
-
+/* ----- FEATURED WRIPER ----- */
 .featured-wriper {
     font-size: 50px;
     font-weight: 600;
-  
     margin-block: -3rem;
 }
-.letras{
+
+.letras {
     font-size: 28px;
-   
 }

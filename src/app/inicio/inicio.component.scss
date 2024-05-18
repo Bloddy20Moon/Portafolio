@@ -17,12 +17,13 @@
     transition: .4s;
 }
 
-.btn:hover  {
+.btn:hover {
     background: #bd3111;
-    color: #f9f6ee ;
+    color: #f9f6ee;
 }
+
 .sincolor {
-    color: #f9f6ee; /* Color predeterminado para los enlaces azules */
+    color: #f9f6ee;
 }
 
 /* ----- GLOBAL ICONS DESIGN ----- */
@@ -38,7 +39,7 @@ i {
 /* ----- FEATURED BOX ----- */
 .featured-box {
     display: flex;
-    height: 10vh;
+    height: 100vh;
     min-height: 600px;
 }
 
@@ -56,7 +57,6 @@ i {
 .featured-name {
     font-size: 50px;
     font-weight: 600;
-    
     margin-block: 20px;
 }
 
@@ -70,8 +70,9 @@ i {
     display: flex;
     gap: 20px;
 }
+
 .featured-text-btn .btn a {
-    text-decoration: none; /* Esta línea elimina la línea azul debajo de los enlaces */
+    text-decoration: none;
 }
 
 .social_icons {
@@ -79,9 +80,11 @@ i {
     margin-top: 5em;
     gap: 30px;
 }
-.letras{
+
+.letras {
     font-size: 45px;
 }
+
 .icon {
     display: flex;
     justify-content: center;
@@ -106,7 +109,6 @@ i {
     width: 50%;
 }
 
-   
 .image {
     margin: auto 0;
     width: 380px;
@@ -155,7 +157,6 @@ i {
         order: 2;
         justify-content: center;
         align-content: flex-start;
-      
     }
 
     .social_icons {
@@ -174,12 +175,5 @@ i {
     .image img {
         width: 200px;
         height: 200px;
-    }
-
-    .row {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 50px;
     }
 }
