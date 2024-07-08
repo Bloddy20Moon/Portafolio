@@ -19,7 +19,7 @@ export class InfinitecarouselComponent  implements AfterViewInit {
     this.elRef.nativeElement.querySelector(".logos").appendChild(copy);
   }
    
-/*   carousels: carousel[] = [
+   carousels: carousel[] = [
     {
       imgUrl: 'assets/img/carousel/html.svg',
     },
@@ -42,7 +42,7 @@ export class InfinitecarouselComponent  implements AfterViewInit {
       imgUrl: 'assets/img/carousel/wordpress.svg',
     },
     {
-    imgUrl: 'assets/img/carousel/bootstrap.svg',
+      imgUrl: 'assets/img/carousel/bootstrap.svg',
     },
     {
       imgUrl: 'assets/img/carousel/php.svg',
@@ -51,5 +51,5 @@ export class InfinitecarouselComponent  implements AfterViewInit {
       imgUrl: 'assets/img/carousel/elementor.svg',
     },
   ];
-   */
+   
 }

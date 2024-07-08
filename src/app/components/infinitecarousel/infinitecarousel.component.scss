@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+.img-carousel:hover{
+  cursor: pointer;
+  transform: scale(1.3);
+  padding: 4px;
+  //transition: width 1.3s;
+  //transition: width 55px;
+}
+
 @keyframes slide {
   0% {
     transform: translateX(0);

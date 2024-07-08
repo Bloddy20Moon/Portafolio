@@ -1,9 +1,21 @@
+
+    .container{
+        margin: 0;
+        padding: 0;
+    }
+
+
     .navbar-toggler {
         border: none;
         font-size: 1.5rem;
     }
     .navbar {
         background-color: #f9f6ee;
+        padding-inline: 10vw;
+    }
+
+    .navbar-expand {
+       
     }
 
     .navbar-toggler:focus {

@@ -86,26 +86,27 @@
        
 </div>
  -->
+<main class="wrapper">
+  <div class="card-container">
+    @for (card of cards; track $index) {
+    <div class="card" >
 
- <div class="card-container">
-  @for (card of cards; track $index) {
-  <div class="card" >
-
-    <img src="{{ card.imageUrl }}" alt="Placeholder Image">
-    <div class="overlay">
-      <div class="image-container">
-        @for (icon of card.icon; track $index) {
-        <img src="{{ icon }}" alt="Icon 1">
-        }
+      <img src="{{ card.imageUrl }}" alt="Placeholder Image">
+      <div class="overlay">
+        <div class="image-container">
+          @for (icon of card.icon; track $index) {
+          <img src="{{ icon }}" alt="Icon 1">
+          }
+        </div>
+        @for (link of card.link; track $index) {
+        <div class="button-container">
+          <button><a class="color__text_primary" target="_blank"
+            href="{{ link }}"><i class="uil--github-alt"></i></a></button>
+          
+        </div>
+      }
       </div>
-      @for (link of card.link; track $index) {
-      <div class="button-container">
-        <button><a class="color__text_primary" target="_blank"
-          href="{{ link }}"><i class="uil--github-alt"></i></a></button>
-        
-      </div>
-    }
     </div>
+    }
   </div>
-  }
-</div>
+</main>
